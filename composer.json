@@ -1,0 +1,26 @@
+{
+    "name": "mayroceccon/calculadora-imc",
+    "description": "Calculadora para cálculo do IMC",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mayron Ceccon",
+            "email": "mayron.ceccon@gmail.com"
+        }
+    ],    
+    "autoload" : {
+        "psr-4" : {
+            "MTC\\" : "src/MTC"
+        }
+    },
+    "require": {
+        "PHP":">=7.0.0"
+    },
+    "require-dev": {
+        "sebastian/phpcpd": "*",
+        "phpmd/phpmd": "*",
+        "squizlabs/php_codesniffer": "*",
+        "phpunit/phpunit": "*"
+    }
+}
